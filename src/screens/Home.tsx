@@ -53,11 +53,12 @@ const HomeScreen = ({ navigation }: any) => {
  );
 
   return (
-    <SafeAreaView>
+    <SafeAreaView >
       <Header
         title="Movie Explorer"
         rightItem={true}
       />
+       
     <ScrollView style={{marginBottom:80}}>
     <ListComponent data={popularMovies} title="Popular Movies" type="banner" loading={loading}/>
  
